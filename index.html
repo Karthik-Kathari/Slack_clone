@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slack Clone | Answer 6</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="slack-container">
+    <div class="slack-sidebar">
+      <div class="sidebar-header">
+        <span class="workspace-name">Your Workspace</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="sidebar-menu">
+        <div class="menu-section">
+          <div class="section-header">
+            <span>Channels</span>
+            <i class="fas fa-plus"></i>
+          </div>
+          <ul>
+            <li class="active"><a href="#"><i class="fas fa-hashtag"></i> general</a></li>
+            <li><a href="#"><i class="fas fa-hashtag"></i> random</a></li>
+            <li><a href="#"><i class="fas fa-hashtag"></i> announcements</a></li>
+          </ul>
+        </div>
+        <div class="menu-section">
+          <div class="section-header">
+            <span>Direct Messages</span>
+            <i class="fas fa-plus"></i>
+          </div>
+          <ul>
+            <li><a href="#"><i class="far fa-user-circle"></i> User 1</a></li>
+            <li><a href="#"><i class="far fa-user-circle"></i> User 2</a></li>
+          </ul>
+        </div>
+        <div class="menu-section">
+          <div class="section-header">
+            <span>Apps</span>
+            <i class="fas fa-plus"></i>
+          </div>
+          <ul>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+          </ul>
+        </div>
+        <div class="user-info">
+          <i class="fa-solid fa-user" style="color: #B197FC; margin-right: 8px;"></i>
+          <span>Karthik Kathari</span>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="slack-content">
+      <div class="content-header">
+        <div class="channel-info">
+          <i class="fas fa-hashtag"></i>
+          <span>general</span>
+        </div>
+        <div class="header-actions">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-users"></i>
+          <i class="fas fa-thumbtack"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <div class="message-area">
+        <div class="message" style="display: flex;justify-content:center;">
+          <i class="fa-solid fa-user" style="color: #B197FC; margin-right: 9px;"></i>
+          <div class="message-content">
+            <span class="user-name">User 1</span>
+            <span class="timestamp">8:00 AM</span>
+            <p>Hello everyone!</p>
+          </div>
+        </div>
+      </div>
+      <div class="message-input-area">
+        <div class="input-wrapper">
+          <i class="far fa-plus-square"></i>
+          <input type="text" placeholder="Message #general">
+          <div class="input-actions">
+            <i class="far fa-smile"></i>
+            <i class="fas fa-paperclip"></i>
+            <i class="fas fa-at"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slack-right-sidebar">
+      <div class="right-sidebar-header">
+        <span>Details</span>
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="right-sidebar-content">
+        <p>Channel details or user profile information can go here.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
